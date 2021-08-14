@@ -63,32 +63,68 @@ namespace HW4Solution
             // }
             // Ромб
             // No idea for ромб.
-            // for(int a = 0; a < 15; a++)
-            // {
-            //     for (int i = 10; i > 0; i--)
-            //     {                
-            //         Console.Write(" ");
-            //     }
-            //     Console.Write("/");              
-            //     Console.Write("\\");
-            //     Console.WriteLine("");
-            // }
-            double initial = 1000;
-            Console.Write("Enter percentage (0<p<25) = ");
-            double p = double.Parse(Console.ReadLine());
-            int k = 0;
-            for (int i = 0; i < 100; i++)
+            int b = 10;
+            int c = 0;
+            int e = 20;
+            int d = 1;
+            for(int a = 0; a < 11; a++)
             {
-                if(initial <= 1100){
-                    initial = initial + (initial*p)/100;
-                    k++;
+                for (int i = b; i > 0; i--)
+                {                
+                    Console.Write(" ");
                 }
-                else
+                Console.Write("/");
+                for (int j = 0; j < c; j++)
                 {
-                    Console.WriteLine($"After {k} month it will exceed 1100");
-                    break;
-                }
+                    if(c > 20)
+                    {
+                        break;
+                    }
+                    Console.Write(" ");
+                }              
+                Console.Write("\\");
+                Console.WriteLine("");
+                b = b - 1;
+                c = c + 2;
             }
+            // Console.WriteLine("");
+            for (int p = 0; p < 11; p++)
+            {
+                for (int t = 1; t < d; t++)
+                {   
+                    if(d > 19)
+                    {
+                        break;
+                    }
+                    Console.Write(" ");
+                }
+                Console.Write("\\");
+                for (int q = e; q > 0; q--)
+                {
+                    Console.Write(" ");
+                }
+                Console.Write("/");
+                Console.WriteLine("");
+                e = e - 2;
+                d = d + 1;
+            }
+
+            // double initial = 1000;
+            // Console.Write("Enter percentage (0<p<25) = ");
+            // double p = double.Parse(Console.ReadLine());
+            // int k = 0;
+            // for (int i = 0; i < 100; i++)
+            // {
+            //     if(initial <= 1100){
+            //         initial = initial + (initial*p)/100;
+            //         k++;
+            //     }
+            //     else
+            //     {
+            //         Console.WriteLine($"After {k} month it will exceed 1100");
+            //         break;
+            //     }
+            // }
         }
     }
 }
