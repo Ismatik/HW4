@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ismatullo.mukhamedzh\\Desktop\\Alif Academy\\HW4\\Hw4\\HW4Solution.csproj": {}
+    "C:\\Users\\ismatullo.mukhamedzh\\Desktop\\Alif Academy\\HW4\\HW4\\HW4Solution.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ismatullo.mukhamedzh\\Desktop\\Alif Academy\\HW4\\Hw4\\HW4Solution.csproj": {
+    "C:\\Users\\ismatullo.mukhamedzh\\Desktop\\Alif Academy\\HW4\\HW4\\HW4Solution.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ismatullo.mukhamedzh\\Desktop\\Alif Academy\\HW4\\Hw4\\HW4Solution.csproj",
+        "projectUniqueName": "C:\\Users\\ismatullo.mukhamedzh\\Desktop\\Alif Academy\\HW4\\HW4\\HW4Solution.csproj",
         "projectName": "HW4Solution",
-        "projectPath": "C:\\Users\\ismatullo.mukhamedzh\\Desktop\\Alif Academy\\HW4\\Hw4\\HW4Solution.csproj",
+        "projectPath": "C:\\Users\\ismatullo.mukhamedzh\\Desktop\\Alif Academy\\HW4\\HW4\\HW4Solution.csproj",
         "packagesPath": "C:\\Users\\ismatullo.mukhamedzh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ismatullo.mukhamedzh\\Desktop\\Alif Academy\\HW4\\Hw4\\obj\\",
+        "outputPath": "C:\\Users\\ismatullo.mukhamedzh\\Desktop\\Alif Academy\\HW4\\HW4\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ismatullo.mukhamedzh\\AppData\\Roaming\\NuGet\\NuGet.Config"

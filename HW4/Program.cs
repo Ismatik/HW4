@@ -46,20 +46,47 @@ namespace HW4Solution
             // {
             //     Console.Write("-");
             // }
-            // Треугольник
-            for(int i = 1; i < 15; i++)
+            // Прямоугольный Треугольник
+            // for(int i = 1; i < 15; i++)
+            // {
+            //     Console.Write("*");
+            //     for (int j = 0; j < i-1; j++)
+            //     {
+            //         Console.Write(" ");
+            //     }
+            //     Console.Write("*");
+            //     Console.WriteLine("");
+            // }
+            // for (int i = 0; i < 16; i++)
+            // {
+            //     Console.Write("*");
+            // }
+            // Равносторонний треугольник
+            int b = 10;
+            int c = 0;
+            for(int a = 0; a < 11; a++)
             {
-                Console.Write("*");
-                for (int j = 0; j < i-1; j++)
-                {
+                for (int i = b; i > 0; i--)
+                {                
                     Console.Write(" ");
                 }
                 Console.Write("*");
-                Console.WriteLine("");
-            }
-            for (int i = 0; i < 16; i++)
-            {
+                for (int j = 0; j < c; j++)
+                {
+                    if(c > 20)
+                    {
+                        break;
+                    }
+                    Console.Write(" ");
+                }              
                 Console.Write("*");
+                Console.WriteLine("");
+                b = b - 1;
+                c = c + 2;
+            }
+            for (int t = 0; t < 12; t++)
+            {
+                Console.Write("* ");
             }
             // Ромб
             // int b = 10;
